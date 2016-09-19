@@ -1,0 +1,1 @@
+const foo = "en.TEST";

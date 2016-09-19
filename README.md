@@ -1,11 +1,11 @@
-# babel-plugin-transform-react-intl-keys
+# babel-plugin-transform-react-intl
 
-Compile string keys into function calls
+Compile resource keys into function calls
 
 ## Installation
 
 ```sh
-$ npm install babel-plugin-transform-react-intl-keys
+$ npm install babel-plugin-transform-react-intl
 ```
 
 ## Usage
@@ -16,20 +16,20 @@ $ npm install babel-plugin-transform-react-intl-keys
 
 ```json
 {
-  "plugins": ["transform-do-expressions"]
+  "plugins": ["transform-react-intl"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel --plugins transform-do-expressions script.js
+$ babel --plugins transform-react-intl script.js
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  plugins: ["transform-do-expressions"]
+  plugins: ["transform-react-intl"]
 });
 ```
